@@ -6,7 +6,8 @@ export default function Navbar() {
             <div className="container flex flex-col lg:flex-row 
 							gap-5 justify-between w-full 
 							items-center max-w-5xl mx-auto">
-                <h2 className="text-3xl text-indigo-500 font-bold">
+                <h2 className="text-3xl text-indigo-500 font-bold"
+                href="#hero">
                     Jonathan Fausset
                 </h2>
                 <ul className="flex gap-3 align-center p-1 flex-wrap">

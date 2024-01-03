@@ -1,4 +1,5 @@
-// Footer.js 
+// Footer.js
+
 export default function Footer() {
     return (
         <section className="p-10 bg-indigo-200 flex justify-center">
