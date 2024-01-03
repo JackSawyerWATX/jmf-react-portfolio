@@ -13,7 +13,7 @@ export default function Contact() {
                     className="text-center hover:underline"
                     href=
                     "https://www.instagram.com/jacksawyer.206/">
-                    Instagram: 
+                    Instagram:
                     <span className="font-bold">
                         @jacksawyer.206
                     </span>
@@ -23,9 +23,19 @@ export default function Contact() {
                     className="text-center hover:underline"
                     href=
                     "https://www.threads.net/@jacksawyer.206">
-                    Threads: 
+                    Threads:
                     <span className="font-bold">
                         @jacksawyer.206
+                    </span>
+                </a>
+
+                <a rel="noreferrer"
+                    target="_blank"
+                    className="hover:underline"
+                    href="mailto:jonathan.fausset@me.com">
+                    Email:
+                    <span className="font-bold">
+                        jonathan.fausset@me.com
                     </span>
                 </a>
             </div>

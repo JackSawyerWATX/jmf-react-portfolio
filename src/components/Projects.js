@@ -1,6 +1,8 @@
 // Projects.js
 
 import DjangoBlogImage from '../images/DjangoBlog.png';
+import dsaTrackerImage from '../images/DSATracker.png';
+import nqIMDb from '../images/NQ-IMDb.png'
 
 export default function Projects() {
     return (
@@ -14,10 +16,10 @@ export default function Projects() {
 							hover:shadow-xl hover:scale-[102%] w-full">
                 <div className="w-80 rounded">
                     <a href=
-                        "https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/"
+                        "https://master.d3rbfz5ybzw8fg.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            "https://media.geeksforgeeks.org/wp-content/uploads/20230927120905/gfg.png"
+                            {dsaTrackerImage}
                             alt="Project 1"
                             className="w-full h-full 
 										bg-cover rounded" target="_blank"/>
@@ -27,7 +29,7 @@ export default function Projects() {
                     <h2 className="font-bold text-3xl text-center">
                         <a className="hover:underline"
                             href=
-                            "https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/" target="_blank">
+                            "https://master.d3rbfz5ybzw8fg.amplifyapp.com/" target="_blank">
                             DSA Progress Tracker
                         </a>
                     </h2>
@@ -42,10 +44,10 @@ export default function Projects() {
 							hover:scale-[102%] w-full">
                 <div className="w-80 rounded">
                     <a href=
-                        "https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/"
+                        "https://master.d2mgrogmmh0zst.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            "https://media.geeksforgeeks.org/wp-content/uploads/20230904150620/gfg.png"
+                            {nqIMDb}
                             alt="Project 2"
                             className="w-full h-full bg-cover rounded" />
                     </a>
@@ -53,16 +55,13 @@ export default function Projects() {
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
                     <h2 className="font-bold text-3xl text-center">
                         <a className="hover:underline" href=
-                            "https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/" target="_blank">
-                            15 Puzzle Game
+                            "https://master.d2mgrogmmh0zst.amplifyapp.com/" target="_blank">
+                            Not Quite - IMDb
                         </a>
                     </h2>
                     <p>
-                        15 puzzle game is basically a tile-based game in which there are 16 tiles
-                        out of which 1 tile is left empty and the remaining tiles are filled with
-                        numbers from 1 to 15 in random order. The user has to arrange all the tiles
-                        in numerical order with the rule that they can only move the tile that is
-                        a direct neighbor of the empty tile.
+                        A movie search app, quite a bit more basic than IMDb, 
+                        but the information returned is using an IMDb API.
                     </p>
                 </div>
             </div>
