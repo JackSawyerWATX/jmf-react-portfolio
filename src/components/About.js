@@ -1,4 +1,7 @@
-// About.js 
+// About.js
+
+import collaborate from "../images/collaborationWebDevs.png"
+
 export default function About() {
     return (
         <section
@@ -7,7 +10,7 @@ export default function About() {
 					align-center bg-indigo-200 max-w-5xl mx-auto">
             <div className="flex-1">
                 <img src=
-                    "https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"
+                    {collaborate}
                     alt="About"
                     className="w-full h-full bg-cover" />
             </div>
@@ -21,11 +24,13 @@ export default function About() {
                 </div>
                 <p>
                 I am a self-taught developer with a background in marketing and 
-                advertising dating back to 2001. My journey into the tech world 
-                began before my consulting career, which unfortunately came to 
-                an end in 2022 due to a layoff. Since then, I've embraced 
-                freelancing as a way to not only keep my skills sharp but also 
-                to continually expand my knowledge.
+                advertising dating back to 2001. While navigating the world of 
+                consulting, my journey into the tech realm began, and it took a 
+                new turn in 2022. Since then, I've shifted gears, embracing 
+                freelancing as a means to keep my skills sharp and continually 
+                expand my knowledge. This change has provided me with exciting 
+                opportunities to explore and grow in the ever-evolving field of 
+                technology.
                 </p>
                 <p>
                 My foray into web development started in 2002, where I delved 
@@ -35,7 +40,7 @@ export default function About() {
                 marked my venture into database management with a focus on SQL. 
                 Building on this foundation, I entered the realm of cloud 
                 computing in 2022, exploring the vast possibilities offered by 
-                AWS."
+                AWS.
                 </p>
             </div>
         </section>

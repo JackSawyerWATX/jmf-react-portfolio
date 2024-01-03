@@ -34,7 +34,7 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        This is a project built on react which tracks your progess in dsa
+                        This is a project built on react which tracks your progess learning DSA
                         and stores that in the local storage.
                     </p>
                 </div>
@@ -86,7 +86,7 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        This is a blog page written in Python using Django framwork for backend management.
+                        This is a blog page written in Python using Django framwork.
                     </p>
                 </div>
             </div>

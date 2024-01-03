@@ -1,4 +1,7 @@
 // Hero.js 
+
+import WebDev from "../images/WebDev.png"
+
 export default function Hero() {
     return (
         <section
@@ -16,12 +19,12 @@ export default function Hero() {
                     </h2>
                 </div>
                 <p className="text-center">
-                    I am a highly skilled Full Stack Developer.
+                    I'm a highly skilled Full Stack Developer.
                 </p>
             </div>
             <div className="flex-1">
                 <img src=
-                    "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*XH3rLskyOsCqVV-j.jpg"
+                    {WebDev}
                     alt="Hello.svg"
                     className="w-full h-full bg-cover" />
             </div>
