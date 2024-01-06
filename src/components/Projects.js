@@ -2,7 +2,9 @@
 
 import DjangoBlogImage from '../images/DjangoBlog.png';
 import dsaTrackerImage from '../images/DSATracker.png';
-import nqIMDb from '../images/NQ-IMDb.png'
+import nqIMDb from '../images/NQ-IMDb.png';
+import LandonHotel from '../images/LandonHotel.png';
+import JonDemo from '../images/JonathanDemo.png'
 
 export default function Projects() {
     return (
@@ -34,11 +36,12 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        This is a project built on react which tracks your progess learning DSA
-                        and stores that in the local storage.
+                        This is a project built on react which tracks your progess learning 
+                        Data Structures and Algorithms and stores that in the local storage.
                     </p>
                 </div>
             </div>
+            
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[102%] w-full">
@@ -65,6 +68,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
+
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[102%] w-full">
@@ -86,10 +90,69 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        This is a blog page written in Python using Django framwork.
+                        This is a blog page written in Python using Django framwork. Django is 
+                        a python framework that includes a user login to maintain and edit 
+                        complex, database driven websites. 
                     </p>
                 </div>
             </div>
+
+            <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
+							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
+							hover:scale-[102%] w-full">
+                <div className="w-80 rounded">
+                    <a href=
+                        "https://master.de0tmva8pq6x6.amplifyapp.com/"
+                        className="w-full h-full" target="_blank">
+                        <img src=
+                            {LandonHotel}
+                            alt="Project 2"
+                            className="w-full h-full bg-cover rounded" />
+                    </a>
+                </div>
+                <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+                    <h2 className="font-bold text-3xl text-center">
+                        <a className="hover:underline" href=
+                            "https://master.de0tmva8pq6x6.amplifyapp.com/" target="_blank">
+                            Landon Hotel - Website Clone
+                        </a>
+                    </h2>
+                    <p>
+                        This is a clone of the website for the Landon Hotel in West London. The original 
+                        page can be found at https://www.landonhotel.com. I built this to learn ReactJS 
+                        and is the first site I built using this framework.
+                    </p>
+                </div>
+            </div>
+
+            <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
+							lg:flex-row max-w-5xl mx-auto shadow transition hover:shadow-xl 
+							hover:scale-[102%] w-full">
+                <div className="w-80 rounded">
+                    <a href=
+                        "https://main.d33zr5pqj7f3ln.amplifyapp.com/"
+                        className="w-full h-full" target="_blank">
+                        <img src=
+                            {JonDemo}
+                            alt="Project 3"
+                            className="w-full h-full bg-cover rounded" />
+                    </a>
+                </div>
+                <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+                    <h2 className="font-bold text-3xl text-center">
+                        <a className="hover:underline" href=
+                            "https://main.d33zr5pqj7f3ln.amplifyapp.com/" 
+                            target="_blank">
+                            Portfolio Site version 1.0
+                        </a>
+                    </h2>
+                    <p>
+                        This is my portfolio site v. 1.0 which is a static website using nothing 
+                        more than HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+            </div>
+
         </section>
     );
 }
