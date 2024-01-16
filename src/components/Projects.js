@@ -147,8 +147,7 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        This is my portfolio site v. 1.0 which is a static website using nothing 
-                        more than HTML, CSS, and JavaScript.
+                        This is my portfolio site v. 1.0, a static website built with HTML, CSS, and JavaScript.
                     </p>
                 </div>
             </div>

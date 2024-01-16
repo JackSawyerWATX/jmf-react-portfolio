@@ -1,5 +1,8 @@
 // Contact.js
 
+import React from 'react';
+import SignupForm from './SignupForm';
+
 export default function Contact() {
     return (
         <section id="contact"
@@ -51,6 +54,9 @@ export default function Contact() {
                         jonathan.fausset@me.com
                     </span>
                 </a>
+            </div>
+            <div>
+                <SignupForm />
             </div>
         </section>
     );
