@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import 'C:/Users/jonat/OneDrive/Desktop/jmf-react-portfolio/src/index.css';
+import './index.css';
 
 const SignupForm = () => {
   const [btnValue, setBtnValue] = useState('Send Email');
