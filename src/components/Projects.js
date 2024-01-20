@@ -143,11 +143,11 @@ export default function Projects() {
                         <a className="hover:underline" href=
                             "https://main.d33zr5pqj7f3ln.amplifyapp.com/" 
                             target="_blank">
-                            Portfolio Site version 1.0
+                            Resume & Portfolio Site version 1.0
                         </a>
                     </h2>
                     <p>
-                        This is my portfolio site v. 1.0, a static website built with HTML, CSS, and JavaScript.
+                        This is my portfolio site v. 1.0, a static website built with HTML, CSS, and JavaScript.<br />This page also acts as my resume and is updated.
                     </p>
                 </div>
             </div>
