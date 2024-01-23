@@ -25,10 +25,10 @@ export default function About() {
                 <p>
                 I am a self-taught developer with a background in marketing and 
                 advertising dating back to 2001. While navigating the world of 
-                consulting, my journey into the tech realm began, and it took a 
-                new turn in 2022. Since then, I've shifted gears, embracing 
-                freelancing as a means to keep my skills sharp and continually 
-                expand my knowledge. This change has provided me with exciting 
+                consulting, my journey into the tech realm took a new turn in 
+                2022. Since then, I've shifted gears, embracing freelancing as 
+                a means to keep my skills sharp and to continually expand my 
+                knowledge. This change has provided me with exciting 
                 opportunities to explore and grow in the ever-evolving field of 
                 technology.
                 </p>

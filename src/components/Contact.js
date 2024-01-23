@@ -12,7 +12,7 @@ export default function Contact() {
                 Contact
             </h2>
             <div className="socialMedia">
-                <div className="flex gap-5 justify-center my-10">
+                <div className="flex flex-col items-center my-10">
                     <a rel="noreferrer"
                         target="_blank"
                         className="text-center hover:underline"
