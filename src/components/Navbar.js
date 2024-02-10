@@ -7,7 +7,7 @@ export default function Navbar() {
 							gap-5 justify-between w-full 
 							items-center max-w-5xl mx-auto">
                                 
-                <a href="#hero" className="text-3xl text-indigo-500 font-bold">
+                <a href="#hero" className="text-3xl text-indigo-500 font-bold transition hover:scale-[102%]">
                     Jonathan Fausset
                 </a>
 
