@@ -15,7 +15,7 @@ export default function Contact() {
                 <div className="flex flex-col items-center my-10">
                     <a rel="noreferrer"
                         target="_blank"
-                        className="text-center hover:underline"
+                        className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
                         "https://github.com/JackSawyerWATX">
                         GitHub:
@@ -26,7 +26,7 @@ export default function Contact() {
 
                     <a rel="noreferrer"
                         target="_blank"
-                        className="text-center hover:underline"
+                        className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
                         "https://www.instagram.com/jacksawyer.206/">
                         Instagram:
@@ -37,7 +37,7 @@ export default function Contact() {
 
                     <a rel="noreferrer"
                         target="_blank"
-                        className="text-center hover:underline"
+                        className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
                         "https://www.threads.net/@jacksawyer.206">
                         Threads:
@@ -48,7 +48,7 @@ export default function Contact() {
 
                     <a rel="noreferrer"
                         target="_blank"
-                        className="text-center hover:underline"
+                        className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href="mailto:jonathan.fausset@me.com">
                         Email:
                         <span className="font-bold">

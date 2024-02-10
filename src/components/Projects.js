@@ -15,8 +15,8 @@ export default function Projects() {
             </h2>
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center 
 							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
-							hover:shadow-xl hover:scale-[102%] w-full">
-                <div className="w-80 rounded">
+							hover:shadow-xl hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
                     <a href=
                         "https://master.d3rbfz5ybzw8fg.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
@@ -28,7 +28,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
                         <a className="hover:underline"
                             href=
                             "https://master.d3rbfz5ybzw8fg.amplifyapp.com/" target="_blank">
@@ -44,8 +44,8 @@ export default function Projects() {
             
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
-							hover:scale-[102%] w-full">
-                <div className="w-80 rounded">
+							hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
                     <a href=
                         "https://master.d2mgrogmmh0zst.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
@@ -56,7 +56,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
                         <a className="hover:underline" href=
                             "https://master.d2mgrogmmh0zst.amplifyapp.com/" target="_blank">
                             Not Quite - IMDb
@@ -71,8 +71,8 @@ export default function Projects() {
 
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row max-w-5xl mx-auto shadow transition hover:shadow-xl 
-							hover:scale-[102%] w-full">
-                <div className="w-80 rounded">
+							hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
                     <a href=
                         "http://django-env.eba-imtfme86.us-west-2.elasticbeanstalk.com/"
                         className="w-full h-full" target="_blank">
@@ -83,7 +83,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
                         <a className="hover:underline" href=
                             "http://django-env.eba-imtfme86.us-west-2.elasticbeanstalk.com/" target="_blank">
                             Personal Blog
@@ -99,8 +99,8 @@ export default function Projects() {
 
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
-							hover:scale-[102%] w-full">
-                <div className="w-80 rounded">
+							hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
                     <a href=
                         "https://master.de0tmva8pq6x6.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
@@ -111,7 +111,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
                         <a className="hover:underline" href=
                             "https://master.de0tmva8pq6x6.amplifyapp.com/" target="_blank">
                             Landon Hotel - Website Clone
@@ -127,8 +127,8 @@ export default function Projects() {
 
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row max-w-5xl mx-auto shadow transition hover:shadow-xl 
-							hover:scale-[102%] w-full">
-                <div className="w-80 rounded">
+							hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[104%] hover:shadow-sm">
                     <a href=
                         "https://main.d33zr5pqj7f3ln.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
@@ -139,7 +139,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
                         <a className="hover:underline" href=
                             "https://main.d33zr5pqj7f3ln.amplifyapp.com/" 
                             target="_blank">

@@ -45,7 +45,9 @@ const SignupForm = () => {
                 <label htmlFor="message">Message </label>
                 <input type="text" name="message" id="message" />
             </div>
-            <input type="submit" id="button" value={btnValue} />
+            <div className="transition hover:scale-[105%] hover:shadow-sm ">
+                <input type="submit" id="button" value={btnValue} className="cursor-pointer" />
+            </div>
         </form>
         <script
             type="text/javascript"
@@ -57,4 +59,3 @@ const SignupForm = () => {
 
 export default SignupForm;
 
-// Didn't load to AWS

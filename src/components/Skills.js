@@ -8,14 +8,20 @@ export default function Skills() {
                 My Skills...
             </h2>
             <div className="mt-10 flex gap-5 justify-center 
-							flex-wrap mx-auto max-w-xl">
+							flex-wrap mx-auto max-w-xl ">
                 {skills.map((skill, index) => {
                     return (
                         <div key={index}
                             className="cursor-pointer px-12 py-10 
-										rounded bg-indigo-200 text-lg 
-										flex items-center justify-center 
-										font-bold hover:shadow-xl">
+									    rounded bg-indigo-200 
+                                        text-lg 
+									    flex items-center 
+                                        justify-center 
+									    font-bold 
+                                        shadow-md
+                                        transition
+                                        hover:scale-[150%]
+                                        hover:shadow-xl">
                             {skill}
                         </div>
                     )

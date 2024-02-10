@@ -12,13 +12,18 @@ export default function About() {
                 <img src=
                     {collaborate}
                     alt="About"
-                    className="w-full h-full bg-cover" />
+                    className="w-full h-full bg-cover transition
+                    hover:scale-[101%]
+                    hover:shadow-sm" />
             </div>
             <div className="flex-1 flex flex-col justify-center 
 							items-center gap-5 px-6">
                 <div>
                     <h2 className="text-center text-indigo-500 
-								text-5xl font-bold">
+								text-5xl font-bold
+                                transition
+                    hover:scale-[101%]
+                    hover:shadow-sm">
                         About Me :
                     </h2>
                 </div>
