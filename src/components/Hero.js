@@ -14,7 +14,7 @@ export default function Hero() {
                     <h4 className="text-center text-xl font-bold">
                         Hello and welcome to
                     </h4>
-                    <h2 className="text-center text-indigo-500 text-5xl font-bold transition hover:scale-[101%] hover:shadow-sm">
+                    <h2 className="text-center text-indigo-500 text-5xl font-bold transition hover:scale-[102%] hover:shadow-sm">
                         My Portfolio Website
                     </h2>
                 </div>
@@ -27,7 +27,7 @@ export default function Hero() {
                     {WebDev}
                     alt="Hello.svg"
                     className="w-full h-full bg-cover transition
-                    hover:scale-[101%]
+                    hover:scale-[102%]
                     hover:shadow-sm" />
             </div>
         </section>

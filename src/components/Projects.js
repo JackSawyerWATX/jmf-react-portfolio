@@ -10,7 +10,7 @@ export default function Projects() {
     return (
         <section id="projects"
             className="my-20 w-full flex flex-col gap-5 align-center max-w-5xl mx-auto">
-            <h2 className="text-5xl text-indigo-500 font-bold text-center">
+            <h2 className="text-5xl text-indigo-500 font-bold text-center transition hover:scale-[102%] hover:shadow-sm">
                 My Projects
             </h2>
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center 

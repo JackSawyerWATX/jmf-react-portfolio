@@ -13,7 +13,7 @@ export default function About() {
                     {collaborate}
                     alt="About"
                     className="w-full h-full bg-cover transition
-                    hover:scale-[101%]
+                    hover:scale-[102%]
                     hover:shadow-sm" />
             </div>
             <div className="flex-1 flex flex-col justify-center 
@@ -22,8 +22,8 @@ export default function About() {
                     <h2 className="text-center text-indigo-500 
 								text-5xl font-bold
                                 transition
-                    hover:scale-[101%]
-                    hover:shadow-sm">
+                                hover:scale-[102%]
+                                hover:shadow-sm">
                         About Me :
                     </h2>
                 </div>
