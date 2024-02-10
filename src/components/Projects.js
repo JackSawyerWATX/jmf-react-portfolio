@@ -28,7 +28,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline"
                             href=
                             "https://master.d3rbfz5ybzw8fg.amplifyapp.com/" target="_blank">
@@ -56,7 +56,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "https://master.d2mgrogmmh0zst.amplifyapp.com/" target="_blank">
                             Not Quite - IMDb
@@ -83,7 +83,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "http://django-env.eba-imtfme86.us-west-2.elasticbeanstalk.com/" target="_blank">
                             Personal Blog
@@ -111,7 +111,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "https://master.de0tmva8pq6x6.amplifyapp.com/" target="_blank">
                             Landon Hotel - Website Clone
@@ -139,7 +139,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] hover:shadow-sm">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "https://main.d33zr5pqj7f3ln.amplifyapp.com/" 
                             target="_blank">

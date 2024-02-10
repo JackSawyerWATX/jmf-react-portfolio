@@ -4,7 +4,7 @@ export default function Skills() {
     return (
         <section id="skills"
             className="px-10 w-full my-40 max-w-5xl mx-auto">
-            <h2 className="text-center text-6xl text-indigo-500 font-bold transition hover:scale-[102%] hover:shadow-sm">
+            <h2 className="text-center text-6xl text-indigo-500 font-bold transition hover:scale-[102%] ">
                 My Skills...
             </h2>
             <div className="mt-10 flex gap-5 justify-center 
