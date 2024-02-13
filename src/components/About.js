@@ -6,9 +6,18 @@ export default function About() {
     return (
         <section
             id="about"
-            className="px-10 w-full flex flex-col lg:flex-row py-20 
-					align-center bg-indigo-200 max-w-5xl mx-auto">
-            <div className="flex-1">
+            className="px-10 
+                        w-full 
+                        flex 
+                        flex-col 
+                        lg:flex-row 
+                        py-20 
+					    align-center 
+                        bg-indigo-200 
+                        max-w-5xl 
+                        mx-auto">
+
+            <div className="flex-1 lg:w-1/2">
                 <img src=
                     {collaborate}
                     alt="About"
@@ -18,7 +27,8 @@ export default function About() {
                                 transition
                                 hover:scale-[102%]" />
             </div>
-            <div className="flex-1 
+            <div className="flex-1
+                            lg:w-1/3
                             flex 
                             flex-col 
                             justify-center 
