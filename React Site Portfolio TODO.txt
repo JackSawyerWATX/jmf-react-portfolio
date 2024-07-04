@@ -1,0 +1,23 @@
+React Site Portfolio TODO:
+
+Under "My Projects" in the "jmf-react-portfolio" file.
+
+1. Add the new DSA tracker.
+	a. Load the project to localhost:3000 and get a screenshot of the landing page and load into the assets folder in the project.
+	b. Change the img src to the local file that you just saved into the assets folder.
+	C. Commit to GitHub
+	d. Deploy the DSA tracker to AWS Amplify.
+	e. Set both hrefs to the public links from AWS.
+	
+2. Add the Movie App and follow the same instructions as above to update the Project.
+	a. Make certain that the items are staggered, left, right, left, right.
+3. Django Blog is the third item down under Projects.
+
+Add the Landon Hotel and my original site to #Projects.
+They will be labled:
+	1. Landon Hotel Clone
+	2. Static HTML Portfolio Site v 1.0
+
+4. Django Records is fourth.
+5. Pollster is 5th
+6. This should be labeled something to the effect of archived version of the portfolio page along with the details that it is nothing more than a static HTML site.

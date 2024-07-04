@@ -16,7 +16,7 @@ const SignupForm = () => {
 
     const serviceID = 'service_b7j6qc2';
     const templateID = 'template_t3pday4';
-    const publicKey = 'j76MTUzhU2tlJZ6Vv';
+    const publicKey = 'L8d_ZyVpWxKldTF1u';
 
     emailjs.sendForm(serviceID, templateID, event.target, publicKey, 'jonathan.fausset@me.com')
       .then(() => {
