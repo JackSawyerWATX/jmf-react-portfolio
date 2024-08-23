@@ -1,6 +1,6 @@
 // Projects.js
 
-import DjangoBlogImage from '../images/DjangoBlog.png';
+import JonChron from '../images/JonChron.jpg';
 import dsaTrackerImage from '../images/DSATracker.png';
 import nqIMDb from '../images/NQ-IMDb.png';
 import LandonHotel from '../images/LandonHotel.png';
