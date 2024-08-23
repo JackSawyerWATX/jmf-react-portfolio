@@ -77,7 +77,7 @@ export default function Projects() {
                         "https://master--jonchron.netlify.app/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            {DjangoBlogImage}
+                            {JonChron}
                             alt="Project 3"
                             className="w-full h-full bg-cover rounded" />
                     </a>
