@@ -91,7 +91,7 @@ export default function Projects() {
                     </h2>
                     <p>
                         This is a blog page written in JavaScript and JSX using Gatsby framwork.
-                        It utilizes a  a continious deplyoment on the netlify app.
+                        It utilizes a continious deplyoment on the netlify app.
                     </p>
                 </div>
             </div>
