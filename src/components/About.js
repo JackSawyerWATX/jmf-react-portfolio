@@ -46,7 +46,7 @@ export default function About() {
                     </h2>
                 </div>
                 <p>
-                I am a self-taught developer with a background in marketing and 
+                I am web based software developer with a background in marketing and 
                 advertising dating back to 2001. While navigating the world of 
                 consulting, my journey into the tech realm took a new turn in 
                 2022. Since then, I've shifted gears, embracing freelancing as 
