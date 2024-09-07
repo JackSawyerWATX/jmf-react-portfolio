@@ -1,5 +1,6 @@
 // Projects.js
 
+import SarahShire from '../images/SarahShirePhotoGallery.jpg';
 import JonChron from '../images/JonChron.jpg';
 import dsaTrackerImage from '../images/DSATracker.png';
 import nqIMDb from '../images/NQ-IMDb.png';
@@ -42,15 +43,16 @@ export default function Projects() {
                 </div>
             </div>
 
+        {/* Sarah Shire - Photo Gallery */}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[105%] w-full">
                 <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
                     <a href=
-                        "https://master.d2mgrogmmh0zst.amplifyapp.com/"
+                        "https://master.d2d6sf0i0ht16r.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            {nqIMDb}
+                            {SarahShire}
                             alt="Project 2"
                             className="w-full h-full bg-cover rounded" />
                     </a>
@@ -58,17 +60,18 @@ export default function Projects() {
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
                     <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
-                            "https://master.d2mgrogmmh0zst.amplifyapp.com/" target="_blank">
-                            Not Quite - IMDb
+                            "https://master.d2d6sf0i0ht16r.amplifyapp.com/" target="_blank">
+                            Sarah Shire - Photographer
                         </a>
                     </h2>
                     <p>
-                        A movie search app, quite a bit more basic than IMDb,
-                        but the information returned is using an IMDb API.
+                        A work in progress, this is a simple and chic photo gallery for 
+                        photographer Sarah Shire using React.js. Contact page to be added soon. 
                     </p>
                 </div>
             </div>
 
+        {/* Personal Blog - Jonathan's Chronicles */}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[105%] w-full">
@@ -146,7 +149,36 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        This is my portfolio site v. 1.0, a static website built with HTML, CSS, and JavaScript.<br />This page also acts as my resume and is updated.
+                        This is my portfolio site v. 1.0, a static website built with HTML, CSS, and JavaScript.<br />
+                        This page also acts as my resume and is updated.
+                    </p>
+                </div>
+            </div>
+
+
+            <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
+							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
+							hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
+                    <a href=
+                        "https://master.d2mgrogmmh0zst.amplifyapp.com/"
+                        className="w-full h-full" target="_blank">
+                        <img src=
+                            {nqIMDb}
+                            alt="Project 2"
+                            className="w-full h-full bg-cover rounded" />
+                    </a>
+                </div>
+                <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
+                        <a className="hover:underline" href=
+                            "https://master.d2mgrogmmh0zst.amplifyapp.com/" target="_blank">
+                            Not Quite - IMDb
+                        </a>
+                    </h2>
+                    <p>
+                        A movie search app, quite a bit more basic than IMDb,
+                        but the information returned is using an IMDb API.
                     </p>
                 </div>
             </div>
