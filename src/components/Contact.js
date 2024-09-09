@@ -52,7 +52,7 @@ export default function Contact() {
                         href="mailto:jonathan.fausset@me.com">
                         Email:
                         <span className="font-bold">
-                            jonathan.fausset@me.com
+                            jonathanfausset@jonathanfausset.com
                         </span>
                     </a>
                 </div>
