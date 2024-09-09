@@ -14,6 +14,8 @@ export default function Projects() {
             <h2 className="text-5xl text-indigo-500 font-bold text-center transition hover:scale-[102%] hover:shadow-sm">
                 My Projects
             </h2>
+
+        {/* DSA Tracker     */}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center 
 							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
 							hover:shadow-xl hover:scale-[105%] w-full">
@@ -25,7 +27,7 @@ export default function Projects() {
                             {dsaTrackerImage}
                             alt="Project 1"
                             className="w-full h-full 
-										bg-cover rounded" target="_blank" />
+						bg-cover rounded" target="_blank" />
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
@@ -65,8 +67,8 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        A work in progress, this is a simple and chic photo gallery for 
-                        photographer Sarah Shire using React.js. Contact page to be added soon. 
+                        A work in progress, this is a simple and chic photo gallery for
+                        photographer Sarah Shire using React.js. Contact page to be added soon.
                     </p>
                 </div>
             </div>
@@ -99,6 +101,7 @@ export default function Projects() {
                 </div>
             </div>
 
+        {/* Landon Hotel */}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[105%] w-full">
@@ -127,6 +130,7 @@ export default function Projects() {
                 </div>
             </div>
 
+        {/* Jon Demo V.1.0*/}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[105%] w-full">
@@ -155,7 +159,7 @@ export default function Projects() {
                 </div>
             </div>
 
-
+        {/* Not Quite IMDb */}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[105%] w-full">
@@ -179,6 +183,35 @@ export default function Projects() {
                     <p>
                         A movie search app, quite a bit more basic than IMDb,
                         but the information returned is using an IMDb API.
+                    </p>
+                </div>
+            </div>
+
+        {/* QR Generator */}
+            <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center 
+							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
+							hover:shadow-xl hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
+                    <a href=
+                        "https://master.d25rxr59yv6xo2.amplifyapp.com/"
+                        className="w-full h-full" target="_blank">
+                        <img src=
+                            {dsaTrackerImage}
+                            alt="Project 1"
+                            className="w-full h-full 
+						bg-cover rounded" target="_blank" />
+                    </a>
+                </div>
+                <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
+                        <a className="hover:underline"
+                            href=
+                            "https://master.d25rxr59yv6xo2.amplifyapp.com/" target="_blank">
+                            QR Generator
+                        </a>
+                    </h2>
+                    <p>
+                        A simple and free QR Code Generator for you to use anytime.
                     </p>
                 </div>
             </div>
