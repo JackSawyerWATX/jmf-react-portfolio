@@ -6,6 +6,7 @@ import dsaTrackerImage from '../images/DSATracker.png';
 import nqIMDb from '../images/NQ-IMDb.png';
 import LandonHotel from '../images/LandonHotel.png';
 import JonDemo from '../images/JonathanDemo.png'
+import qrcode from '../images/QRcode.png'
 
 export default function Projects() {
     return (
@@ -196,7 +197,7 @@ export default function Projects() {
                         "https://master.d25rxr59yv6xo2.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            {dsaTrackerImage}
+                            {qrcode}
                             alt="Project 1"
                             className="w-full h-full 
 						bg-cover rounded" target="_blank" />
