@@ -18,13 +18,13 @@ export default function Contact() {
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
                         "https://github.com/JackSawyerWATX">
-                        GitHub:
+                        GitHub:&nbsp;
                         <span className="font-bold">
                             @jacksawyer.206
                         </span>
                     </a>
 
-                    <a rel="noreferrer"
+                    {/* <a rel="noreferrer"
                         target="_blank"
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
@@ -33,14 +33,14 @@ export default function Contact() {
                         <span className="font-bold">
                             @jacksawyer.206
                         </span>
-                    </a>
+                    </a> */}
 
                     <a rel="noreferrer"
                         target="_blank"
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
                         "https://www.threads.net/@jacksawyer.206">
-                        Threads:
+                        Threads:&nbsp;
                         <span className="font-bold">
                             @jacksawyer.206
                         </span>
@@ -50,7 +50,7 @@ export default function Contact() {
                         target="_blank"
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href="mailto:contact@jonathanfausset.com">
-                        Email:
+                        Email:&nbsp;
                         <span className="font-bold">
                             contact@jonathanfausset.com
                         </span>
