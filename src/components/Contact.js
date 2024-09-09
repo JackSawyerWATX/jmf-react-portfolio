@@ -49,10 +49,10 @@ export default function Contact() {
                     <a rel="noreferrer"
                         target="_blank"
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
-                        href="mailto:jonathan.fausset@me.com">
+                        href="mailto:jonathanfausset@jonathanfausset.com">
                         Email:
                         <span className="font-bold">
-                            jonathanfausset@jonathanfausset.com
+                            jon@jonathanfausset.com
                         </span>
                     </a>
                 </div>
