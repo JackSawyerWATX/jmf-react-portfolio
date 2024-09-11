@@ -39,10 +39,10 @@ export default function Contact() {
                         target="_blank"
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
                         href=
-                        "https://www.threads.net/@jacksawyer.206">
-                        Threads:&nbsp;
+                        "https://www.linkedin.com/in/jonathan-fausset-dev/">
+                        LinkedIn:&nbsp;
                         <span className="font-bold">
-                            @jacksawyer.206
+                            Jonathan Fausset
                         </span>
                     </a>
 
