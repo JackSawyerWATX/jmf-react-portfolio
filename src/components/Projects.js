@@ -7,6 +7,7 @@ import nqIMDb from '../images/NQ-IMDb.png';
 import LandonHotel from '../images/LandonHotel.png';
 import JonDemo from '../images/JonathanDemo.png'
 import qrcode from '../images/QRcode.png'
+import rpa from '../images/react_parallax_aircraft.jpg'
 
 export default function Projects() {
     return (
@@ -213,6 +214,33 @@ export default function Projects() {
                     </h2>
                     <p>
                         A simple and free QR Code Generator for you to use anytime.
+                    </p>
+                </div>
+            </div>
+
+        {/* Aircraft site using Parallax in React */}
+            <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
+							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
+							hover:scale-[105%] w-full">
+                <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
+                    <a href=
+                        "https://main.d2imdrhasvzmd4.amplifyapp.com/"
+                        className="w-full h-full" target="_blank">
+                        <img src=
+                            {rpa}
+                            alt="Project 2"
+                            className="w-full h-full bg-cover rounded" />
+                    </a>
+                </div>
+                <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+                    <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
+                        <a className="hover:underline" href=
+                            "https://main.d2imdrhasvzmd4.amplifyapp.com/" target="_blank">
+                            Antique Military Aircraft using Parallax
+                        </a>
+                    </h2>
+                    <p>
+                        A small website I built using parallax components in a React site.
                     </p>
                 </div>
             </div>
