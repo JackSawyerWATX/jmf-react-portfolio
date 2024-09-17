@@ -236,11 +236,11 @@ export default function Projects() {
                     <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "https://main.d2imdrhasvzmd4.amplifyapp.com/" target="_blank">
-                            Antique Military Aircraft using Parallax
+                            Antique Aircraft using Parallax
                         </a>
                     </h2>
                     <p>
-                        A small website I built using parallax components in a React site.
+                        A small website using parallax components in a React site.
                     </p>
                 </div>
             </div>

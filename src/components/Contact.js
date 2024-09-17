@@ -24,17 +24,6 @@ export default function Contact() {
                         </span>
                     </a>
 
-                    {/* <a rel="noreferrer"
-                        target="_blank"
-                        className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"
-                        href=
-                        "https://www.instagram.com/jacksawyer.206/">
-                        Instagram:
-                        <span className="font-bold">
-                            @jacksawyer.206
-                        </span>
-                    </a> */}
-
                     <a rel="noreferrer"
                         target="_blank"
                         className="text-center hover:underline transition hover:scale-[105%] hover:shadow-sm"

@@ -61,3 +61,46 @@ input[type="submit"] {
 .text-center{
   margin: 2 px;
 }
+
+
+/* ConsentPopup.css */
+.consent-popup {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #6366f1;
+  color: #fff;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.consent-popup-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.consent-popup p {
+  margin: 0 0 10px;
+}
+
+.consent-popup a {
+  color: #4caf50;
+  text-decoration: underline;
+}
+
+.consent-popup button {
+  padding: 10px 20px;
+  background-color: #c7d2fe;
+  border: none;
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.consent-popup button:hover {
+  background-color: #e0e7ff;
+}
+
+/* light #e0e7ff */
+/* mid #c7d2fe */
+/* dark #6366f1 */
