@@ -1,3 +1,10 @@
+
+
+/* light #e0e7ff */
+/* mid #c7d2fe */
+/* dark #6366f1 */
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -101,6 +108,55 @@ input[type="submit"] {
   background-color: #e0e7ff;
 }
 
-/* light #e0e7ff */
-/* mid #c7d2fe */
-/* dark #6366f1 */
+
+/* PrivacyPolicyModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-top: 40px; /* To avoid overlapping with close button */
+}
+
+.modal-body h2 {
+  margin-top: 0;
+}
+
+.modal-body p {
+  line-height: 1.6;
+}
+
+.popupButtons {
+  display: inline;
+  padding: 10px;
+}

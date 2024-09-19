@@ -1,53 +1,72 @@
 // App.js
 
 import React, { useState, useEffect } from 'react';
-
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
 import ConsentPopup from './components/ConsentPopup';
+import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 
+function App() {
+  const [showConsentPopup, setShowConsentPopup] = useState(false);
+  const [showPrivacyModal, setShowPrivacyModal] = useState(false);
 
-export default function App() {
-	const [showConsentPopup, setShowConsentPopup] = useState(false);
-	useEffect(() => {
+  useEffect(() => {
+    const consentGiven = localStorage.getItem('userConsent');
+    console.log('Consent Given:', consentGiven);
 
-		const consentGiven = localStorage.getItem('userConsent');
-		if (!consentGiven) {
-			setShowConsentPopup(true);
-		} else {
-			// If consent was given, proceed with tracking
-			fetch('/track-visitor');
-		}
+    if (!consentGiven) {
+      console.log('Consent not given, showing popup');
+      setShowConsentPopup(true);
+    } else if (consentGiven === 'true') {
+      console.log('Consent already given, tracking visitor');
+      // Proceed with tracking
+      fetch('https://yourserver.com/track-visitor')
+        .then(response => response.text())
+        .then(data => console.log('Tracking data:', data))
+        .catch(error => console.error('Error tracking visitor:', error));
+    } else {
+      console.log('Consent declined, not tracking');
+    }
+  }, []);
 
-		fetch('https://jonathanfausset.com/track-visitor')  // Use the correct server URL
-			.then(response => response.text())
-			.then(data => console.log(data))
-			.catch(error => console.error('Error:', error));
-	}, []);
+  const handleAccept = () => {
+    localStorage.setItem('userConsent', 'true');
+    setShowConsentPopup(false);
+    // Proceed with tracking
+    fetch('https://yourserver.com/track-visitor')
+      .then(response => response.text())
+      .then(data => console.log('Tracking after consent:', data))
+      .catch(error => console.error('Error tracking visitor:', error));
+  };
 
-	const handleAccept = () => {
-		localStorage.setItem('userConsent', 'true');
-		setShowConsentPopup(false);
-			// Proceed with tracking
-		fetch('/track-visitor');
-	};
+  const handleShowPrivacyPolicy = () => {
+    setShowPrivacyModal(true);
+  };
 
-	return (
-		<>
-			{showConsentPopup && <ConsentPopup onAccept={handleAccept} />}
-			<Navbar />
-			<Hero />
-			<About />
-			<Skills />
-			<Projects />
-			<Contact />
-			<Footer />
-		</>
-	);
-} 
+  const handleClosePrivacyPolicy = () => {
+    setShowPrivacyModal(false);
+  };
 
+  return (
+    <>
+      {showConsentPopup && (
+        <ConsentPopup onAccept={handleAccept} onShowPrivacyPolicy={handleShowPrivacyPolicy} />
+      )}
+      <PrivacyPolicyModal isOpen={showPrivacyModal} onClose={handleClosePrivacyPolicy} />
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
