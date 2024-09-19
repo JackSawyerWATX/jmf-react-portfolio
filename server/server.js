@@ -19,7 +19,7 @@ const IP_LOG_FILE = 'ip_log.txt';
 
 app.get('/track-visitor', (req, res) => {
   // Get the client's IP address
-  const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
   const timestamp = new Date().toISOString();
   const logEntry = `${timestamp} - ${ip}\n`;
 
@@ -57,14 +57,14 @@ function sendEmail(ipData) {
   let transporter = nodemailer.createTransport({
     service: 'Apple', // Use your email service provider
     auth: {
-      user: 'emailUser', // Replace with your email
-      pass: 'emailPass',   // Replace with your email password or app-specific password
+      user: emailUser, // Replace with your email
+      pass: emailPass,   // Replace with your email password or app-specific password
     },
   });
 
   let mailOptions = {
-    from: 'emailUser',
-    to: 'emailTo',      // Email recipient(s)
+    from: emailUser,
+    to: emailTo,      // Email recipient(s)
     subject: 'Daily Visitor IP Addresses',
     text: ipData || 'No visitors today.',
   };
