@@ -1,4 +1,3 @@
-
 // server.js
 
 const express = require('express');
@@ -27,6 +26,8 @@ app.get('/track-visitor', (req, res) => {
   fs.appendFile(IP_LOG_FILE, logEntry, (err) => {
     if (err) {
       console.error('Error writing to IP log file:', err);
+    } else {
+      console.log('Logged IP:', ip);
     }
   });
 
@@ -35,6 +36,8 @@ app.get('/track-visitor', (req, res) => {
 
 // Schedule the email to be sent at 6:00 PM every day
 cron.schedule('0 18 * * *', () => {
+  console.log('Cron job triggered at', new Date().toISOString());
+
   fs.readFile(IP_LOG_FILE, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading IP log file:', err);
@@ -46,7 +49,11 @@ cron.schedule('0 18 * * *', () => {
 
     // Clear the log file after sending the email
     fs.writeFile(IP_LOG_FILE, '', (err) => {
-      if (err) console.error('Error clearing IP log file:', err);
+      if (err) {
+        console.error('Error clearing IP log file:', err);
+      } else {
+        console.log('IP log file cleared');
+      }
     });
   });
 });
@@ -55,16 +62,16 @@ cron.schedule('0 18 * * *', () => {
 function sendEmail(ipData) {
   // Configure the email transport using SMTP
   let transporter = nodemailer.createTransport({
-    service: 'Apple', // Use your email service provider
+    service: 'iCloud', // Use your email service provider
     auth: {
-      user: emailUser, // Replace with your email
-      pass: emailPass,   // Replace with your email password or app-specific password
+      user: emailUser, // Use the variable
+      pass: emailPass, // Use the variable
     },
   });
 
   let mailOptions = {
     from: emailUser,
-    to: emailTo,      // Email recipient(s)
+    to: emailTo, // Use the variable
     subject: 'Daily Visitor IP Addresses',
     text: ipData || 'No visitors today.',
   };
@@ -77,6 +84,12 @@ function sendEmail(ipData) {
     }
   });
 }
+
+// Test route to send an email manually
+app.get('/test-email', (req, res) => {
+  sendEmail('This is a test email from your server.');
+  res.send('Test email initiated.');
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
