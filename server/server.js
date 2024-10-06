@@ -13,11 +13,10 @@ const emailTo = process.env.EMAIL_TO;
 const app = express();
 const IP_LOG_FILE = 'ip_log.txt';
 
-// If behind a proxy like Nginx or Heroku, enable trust proxy
 // app.set('trust proxy', true);
 
 app.get('/track-visitor', (req, res) => {
-  // Get the client's IP address
+  // Get the client IP address
   const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
   const timestamp = new Date().toISOString();
   const logEntry = `${timestamp} - ${ip}\n`;
@@ -62,16 +61,16 @@ cron.schedule('0 18 * * *', () => {
 function sendEmail(ipData) {
   // Configure the email transport using SMTP
   let transporter = nodemailer.createTransport({
-    service: 'iCloud', // Use your email service provider
+    service: 'iCloud', // email service provider
     auth: {
-      user: emailUser, // Use the variable
-      pass: emailPass, // Use the variable
+      user: emailUser, // Use variable
+      pass: emailPass, // Use variable
     },
   });
 
   let mailOptions = {
     from: emailUser,
-    to: emailTo, // Use the variable
+    to: emailTo, // Use variable
     subject: 'Daily Visitor IP Addresses',
     text: ipData || 'No visitors today.',
   };
