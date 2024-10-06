@@ -240,7 +240,7 @@ export default function Projects() {
                         </a>
                     </h2>
                     <p>
-                        A small website using parallax components in a React site.
+                        A small desktop website using parallax components in a React site.
                     </p>
                 </div>
             </div>
