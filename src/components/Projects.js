@@ -65,7 +65,7 @@ export default function Projects() {
                     <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "https://master.d2d6sf0i0ht16r.amplifyapp.com/" target="_blank">
-                            Jonathan Fausset - Photographer
+                            Photography Gallery
                         </a>
                     </h2>
                     <p>
