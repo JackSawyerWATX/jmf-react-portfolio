@@ -3,11 +3,11 @@
 import SarahShire from '../images/SarahShirePhotoGallery.jpg';
 import JonChron from '../images/JonChron.jpg';
 import dsaTrackerImage from '../images/DSATracker.png';
-import nqIMDb from '../images/NQ-IMDb.png';
+import Weather from '../images/Icon-Weather-Rain.jpg';
 import LandonHotel from '../images/LandonHotel.png';
-import JonDemo from '../images/JonathanDemo.png'
-import qrcode from '../images/QRcode.png'
-import rpa from '../images/react_parallax_aircraft.jpg'
+import JonDemo from '../images/JonathanDemo.png';
+import qrcode from '../images/QRcode.png';
+import rpa from '../images/react_parallax_aircraft.jpg';
 
 export default function Projects() {
     return (
@@ -161,30 +161,29 @@ export default function Projects() {
                 </div>
             </div>
 
-        {/* Not Quite IMDb */}
+        {/* Local Weather */}
             <div className="p-10 bg-indigo-200 flex flex-col justify-center items-center gap-5 
 							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
 							hover:scale-[105%] w-full">
                 <div className="w-80 rounded transition hover:scale-[105%] hover:shadow-sm">
                     <a href=
-                        "https://master.d2mgrogmmh0zst.amplifyapp.com/"
+                        "https://master.dyn0i5lcp1qs2.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            {nqIMDb}
-                            alt="Project 2"
+                            {Weather}
+                            alt="Weather App"
                             className="w-full h-full bg-cover rounded" />
                     </a>
                 </div>
                 <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
                     <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
-                            "https://master.d2mgrogmmh0zst.amplifyapp.com/" target="_blank">
-                            Not Quite - IMDb
+                            "https://master.dyn0i5lcp1qs2.amplifyapp.com/" target="_blank">
+                            Local Weather
                         </a>
                     </h2>
                     <p>
-                        A movie search app, quite a bit more basic than IMDb,
-                        but the information returned is using an IMDb API.
+                        This app locates your position and displays your local weather. 
                     </p>
                 </div>
             </div>
