@@ -1,6 +1,6 @@
 // Projects.js
 
-import SarahShire from '../images/SarahShirePhotoGallery.jpg';
+import JonPhoto from '../images/JonathanFaussetPhotoGallery.jpg';
 import JonChron from '../images/JonChron.jpg';
 import dsaTrackerImage from '../images/DSATracker.png';
 import Weather from '../images/Icon-Weather-Rain.jpg';
@@ -56,7 +56,7 @@ export default function Projects() {
                         "https://master.d2d6sf0i0ht16r.amplifyapp.com/"
                         className="w-full h-full" target="_blank">
                         <img src=
-                            {SarahShire}
+                            {JonPhoto}
                             alt="Project 2"
                             className="w-full h-full bg-cover rounded" />
                     </a>
@@ -65,12 +65,12 @@ export default function Projects() {
                     <h2 className="font-bold text-3xl text-center transition hover:scale-[105%] ">
                         <a className="hover:underline" href=
                             "https://master.d2d6sf0i0ht16r.amplifyapp.com/" target="_blank">
-                            Sarah Shire - Photographer
+                            Jonathan Fausset - Photographer
                         </a>
                     </h2>
                     <p>
-                        A work in progress, this is a simple and chic photo gallery for
-                        photographer Sarah Shire using React.js. Contact page to be added soon.
+                        A work in progress, this is a simple and chic photo gallery 
+                        using React.js. Contact page to be added soon.
                     </p>
                 </div>
             </div>
